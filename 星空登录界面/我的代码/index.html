@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <!-- js -->
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>账号登录</title>
+</head>
+
+<body>
+    <div id="bg">
+        <!-- 登录失败提示框 -->
+        <div id="hint">
+            <p>登录失败</p>
+        </div>
+        <!-- 完整的登录框 -->
+        <div id="login_wrap">
+            <!-- 登录框 -->
+            <div id="login">
+                <div id="status">
+                    <i style="top: 0;">Log</i>
+                    <i style="top: 35px;">Sign</i>
+                    <i style="right: 5px;">in</i>
+                </div>
+                <span>
+                    <form action="post">
+                        <p class="form">
+                            <input type="text" id="user" placeholder="username">
+                        </p>
+                        <p class="form">
+                            <input type="password" id="password" placeholder="password">
+                        </p>
+                        <p class="form confirm">
+                            <input type="password" id="confirm_password" placeholder="confirm password">
+                        </p>
+                        <input type="button" value="Log in" class="btn" id="login_btn" style="margin-right: 20px;">
+                        <input type="button" value="Sign in" class="btn" id="signin_btn">
+                    </form>
+                    <a href="#">Forget your password?</a>
+                </span>
+            </div>
+
+            <!-- 登录框左边的图片 -->
+            <div id="login_img">
+                <span class="circle">
+                    <span></span>
+                    <span></span>
+                </span>
+                <span class="star">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <span class="fly_star">
+                    <span></span>
+                    <span></span>
+                </span>
+                <p id="title">CLOUD</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
